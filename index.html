@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cifrado</title>
+    <link rel="icon" type="image/png" href="./assets/cifrado.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cifrado</h1>
+        <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <input type="text" id="message" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="cipher">Tipo de cifrado:</label>
+            <select id="cipher" onchange="toggleOptions()">
+                <option value="" selected disabled>Seleccionar</option>
+                <option value="cesar">Cifrado César</option>
+                <option value="afin">Cifrado Afín</option>
+            </select>
+        </div>
+
+        <div id="cesar-options" class="form-group hidden">
+            <label for="shift">Desplazamiento:</label>
+            <input type="number" id="shift" placeholder="Desplazamiento" min="1" required>
+        </div>
+
+        <div id="afin-options" class="form-group hidden">
+            <label for="keyA">Clave A:</label>
+            <input type="number" id="keyA" placeholder="Clave A" required>
+            <label for="keyB">Clave B:</label>
+            <input type="number" id="keyB" placeholder="Clave B" required>
+        </div>
+        <div class="button-group">
+            <button onclick="encrypt()" class="btn">Cifrar</button>
+            <button onclick="decrypt()" class="btn">Descifrar</button>
+            <button onclick="clearFields()" class="btn">Limpiar</button>
+        </div>
+        <div class="form-group">
+            <label for="result">Resultado:</label>
+            <input type="text" id="result" class="form-control" readonly>
+        </div>
+        <div class="theme-toggle">
+            <button onclick="toggleTheme()" class="btn">Cambiar tema</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Desarrollado por: Dennis290699
+      </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
