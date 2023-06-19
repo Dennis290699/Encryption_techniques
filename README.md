@@ -1,83 +1,81 @@
-# Cifrado y Descifrado Web
+# Web Encryption and Decryption
 
-Este es un proyecto de una página web simple que proporciona funcionalidad para el cifrado y descifrado utilizando los métodos de Cifrado César y Cifrado Afín. La página está desarrollada con HTML, CSS y JavaScript.
+This is a project for a simple web page that provides functionality for encryption and decryption using the methods of Caesar Cipher and Affine Cipher. The page is developed with HTML, CSS, and JavaScript.
 
-## Características
+## Features
 
-- Cifrado y descifrado utilizando el método de Cifrado César y Cifrado Afín.
-- Personalización del desplazamiento para el Cifrado César y las claves para el Cifrado Afín.
-- Cambio entre temas claro y oscuro.
-- Interfaz de usuario amigable y responsive.
+- Encryption and decryption using the Caesar Cipher and Affine Cipher methods.
+- Customization of the shift for the Caesar Cipher and the keys for the Affine Cipher.
+- Switch between light and dark themes.
+- User-friendly and responsive interface.
 
 ## Demo
 
-Puedes ver una demostración en vivo del proyecto [aquí](https://dennis290699.github.io/Encryption_techniques/).
+You can see a live demo of the project [here](https://dennis290699.github.io/Encryption_techniques/).
 
-## Capturas de Pantalla
+## Screenshots
 
-### Tema Claro
+### Light Theme
 
-<img src="./assets/theme-light.png" alt="Captura de pantalla - Tema Claro" width="300">
+<img src="./assets/theme-light.png" alt="Screenshot - Light Theme" width="300">
 
-Esta captura de pantalla muestra la página con el tema claro aplicado. Los colores predominantes son suaves y claros, lo que proporciona una apariencia agradable y luminosa. Los elementos de la interfaz son fácilmente distinguibles y se adaptan a un fondo claro. 
+This screenshot shows the page with the light theme applied. The predominant colors are soft and bright, providing a pleasant and luminous appearance. The interface elements are easily distinguishable and adapt well to a light background.
 
-### Tema Oscuro
+### Dark Theme
 
-<img src="./assets/theme-dark.png" alt="Captura de pantalla - Tema Oscuro" width="300">
+<img src="./assets/theme-dark.png" alt="Screenshot - Dark Theme" width="300">
 
-En esta captura de pantalla, se muestra la página con el tema oscuro activado. Los colores utilizados son más oscuros y se ajustan a un fondo oscuro, lo que proporciona una apariencia elegante y moderna. El texto y los elementos resaltan gracias a los colores contrastantes. El tema oscuro también puede ayudar a reducir la fatiga visual en entornos de poca luz.
+In this screenshot, the page is shown with the dark theme enabled. The colors used are darker and adjust to a dark background, providing an elegant and modern appearance. The text and elements stand out thanks to the contrasting colors. The dark theme can also help reduce visual fatigue in low-light environments.
 
+## Installation
 
-
-## Instalación
-
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
 
    ```bash
    git clone https://github.com/Dennis290699/Encryption_techniques.git
    ```
 
-2. Navega hasta el directorio del proyecto:
+2. Navigate to the project directory:
 
    ```bash
-   cd nombre-del-repo
+   cd repository-name
    ```
 
-3. Abre el archivo `index.html` en tu navegador web.
+3. Open the `index.html` file in your web browser.
 
-## Personalización
+## Customization
 
-Puedes personalizar el proyecto según tus necesidades:
+You can customize the project according to your needs:
 
-- Modifica el diseño y los estilos en el archivo CSS (`style.css`).
-- Añade más métodos de cifrado y descifrado en el archivo JavaScript (`script.js`).
-- Añade más opciones de personalización en el archivo HTML (`index.html`).
+- Modify the design and styles in the CSS file (`style.css`).
+- Add more encryption and decryption methods in the JavaScript file (`script.js`).
+- Add more customization options in the HTML file (`index.html`).
 
-## Contribución
+## Contribution
 
-Si deseas contribuir a este proyecto, sigue estos pasos:
+If you want to contribute to this project, follow these steps:
 
-1. Haz un fork de este repositorio.
-2. Crea una nueva rama para tus cambios:
+1. Fork this repository.
+2. Create a new branch for your changes:
 
    ```bash
-   git checkout -b feature/nueva-funcionalidad
+   git checkout -b feature/new-feature
    ```
 
-3. Realiza tus cambios y haz commits:
+3. Make your changes and commit them:
 
    ```bash
-   git commit -m "Agrega nueva funcionalidad"
+   git commit -m "Add new feature"
    ```
 
-4. Empuja tus cambios a tu repositorio fork:
+4. Push your changes to your forked repository:
 
    ```bash
-   git push origin feature/nueva-funcionalidad
+   git push origin feature/new-feature
    ```
 
-5. Abre un pull request en este repositorio.
+5. Open a pull request in this repository.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
