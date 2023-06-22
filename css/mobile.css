@@ -1,37 +1,50 @@
 /* Estilos específicos para dispositivos móviles */
 @media screen and (max-width: 900px) {
-    .container {
-      padding: 10px;
-      min-height: 100vh;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    h1 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-  
-    input[type="text"],
-    input[type="number"],
-    select {
-      width: 100%;
-      padding: 5px;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-  
-    .btn {
-      padding: 8px 16px;
-      font-size: 14px;
-    }
-  
-    .form-group label,
-    .button-group button {
-      margin-right: 5px;
-      font-size: 14px;
-    }
+  .container {
+    padding: 10px;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .form-group label,
+  .button-group button {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .clear-icon,
+  .copy-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -117,6 +117,67 @@ function clearFields() {
   toggleOptions(); // Ocultar las opciones de cifrado
 }
 
+// Obtén una referencia al icono y al campo de entrada de texto cifrado
+const copyIcon = document.getElementById("copy-icon");
+const resultInput = document.getElementById("result");
+const clearIcon = document.querySelector('.clear-icon');
+const messageInput = document.querySelector('#message');
+
+// Agrega el evento click al icono
+copyIcon.addEventListener("click", function () {
+  // Selecciona y copia el texto cifrado al portapapeles
+  resultInput.select();
+  document.execCommand("copy");
+});
+
+clearIcon.addEventListener('click', function() {
+  messageInput.value = '';
+});
+
+
+
+// Agrega el evento click al icono de copiar
+copyIcon.addEventListener("click", function () {
+  // Selecciona y copia el texto cifrado al portapapeles
+  resultInput.select();
+  document.execCommand("copy");
+
+  // Cambiar la imagen del icono a la versión "clickeada" con transición suave
+  copyIcon.src = "../assets/icon-check.png";
+  copyIcon.classList.add("clicked");
+
+  // Restaurar la imagen original del icono después de 2 segundos
+  setTimeout(function () {
+    copyIcon.src = "../assets/btn-copy.png";
+    copyIcon.classList.remove("clicked");
+  }, 2000);
+});
+
+// Agrega el evento click al icono de limpiar
+clearIcon.addEventListener("click", function () {
+  // Limpiar el campo de entrada de texto
+  document.getElementById("message").value = "";
+
+  // Cambiar la imagen del icono a la versión "clickeada" con transición suave
+  clearIcon.src = "../assets/icon-check.png";
+  clearIcon.classList.add("clicked");
+
+  // Restaurar la imagen original del icono después de 2 segundos
+  setTimeout(function () {
+    clearIcon.src = "../assets/btn-trash.png";
+    clearIcon.classList.remove("clicked");
+  }, 2000);
+});
+
+
+
+
+
+
+
+
+
+
 function toggleTheme() {
   var body = document.getElementsByTagName("body")[0];
   body.classList.toggle("dark-theme");
