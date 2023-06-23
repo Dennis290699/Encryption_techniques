@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrado</title>
     <link rel="icon" type="image/png" href="./assets/cifrado.png">
     <link rel="stylesheet" type="text/css" href="./css/mobile.css">
@@ -15,10 +17,10 @@
         <div class="form-group">
             <label for="message">Mensaje:</label>
             <div class="input-container">
-              <input type="text" id="message" name="message" placeholder="Escriba aqui su mensaje">
-              <img src="./assets/btn-trash.png" alt="Limpiar" class="clear-icon" id="clear-icon">
+                <input type="text" id="message" name="message" placeholder="Escriba aqui su mensaje">
+                <img src="./assets/btn-trash.png" alt="Limpiar" class="clear-icon" id="clear-icon">
             </div>
-        </div> 
+        </div>
         <div class="form-group">
             <label for="cipher">Tipo de cifrado:</label>
             <select id="cipher" onchange="toggleOptions()">
