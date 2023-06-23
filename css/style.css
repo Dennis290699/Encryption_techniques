@@ -46,7 +46,7 @@ body {
 .clear-icon,
 .copy-icon {
   position: absolute;
-  top: 50%;
+  top: 15%;
   right: 10px;
   width: 20px;
   height: 20px;
@@ -55,25 +55,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -10px;
-}
-
-.icon {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.check-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.icon.clicked .check-icon {
-  transition: opacity 0.3s ease-in-out;
 }
 
 h1 {
