@@ -27,7 +27,9 @@ Esta captura de pantalla muestra la página con el tema claro aplicado. Los colo
 
 En esta captura de pantalla, se muestra la página con el tema oscuro activado. Los colores utilizados son más oscuros y se ajustan a un fondo oscuro, lo que proporciona una apariencia elegante y moderna. El texto y los elementos resaltan gracias a los colores contrastantes. El tema oscuro también puede ayudar a reducir la fatiga visual en entornos de poca luz.
 
+## Documentación
 
+En este enlace, encontrarás la documentación completa para comprender, configurar y utilizar el proyecto. [Documentación](./Documents) 
 
 ## Instalación
 

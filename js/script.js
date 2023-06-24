@@ -134,8 +134,6 @@ clearIcon.addEventListener('click', function() {
   messageInput.value = '';
 });
 
-
-
 // Agrega el evento click al icono de copiar
 copyIcon.addEventListener("click", function () {
   // Selecciona y copia el texto cifrado al portapapeles
